@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Motion Graphics</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+.page-header{
+  text-align:center;
+  margin-top:4rem;
+}
+
+.project-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:2rem;
+  padding:3rem;
+}
+
+.item{
+  border:1px solid #ccc;
+  padding:1rem;
+  border-radius:1rem;
+  text-align:center;
+}
+
+.item img,
+.item video{
+  width:100%;
+  border-radius:1rem;
+}
+
+.download-btn{
+  margin-top:1rem;
+  padding:0.6rem 1.5rem;
+  border-radius:2rem;
+  border:1px solid #333;
+  background:white;
+  cursor:pointer;
+}
+.download-btn:hover{
+  background:black;
+  color:white;
+}
+</style>
+</head>
+
+<body>
+
+<h1 class="page-header">Motion Graphics</h1>
+
+<div class="project-grid">
+
+<div class="item">
+<img src="../project-assets/Motion/poster1.jpg">
+<a href="../project-assets/Motion/poster1.jpg" download>
+<button class="download-btn">Download</button>
+</a>
+</div>
+
+<div class="item">
+<img src="../project-assets/Motion/poster2.jpg">
+<a href="../project-assets/Motion/poster2.jpg" download>
+<button class="download-btn">Download</button>
+</a>
+</div>
+
+</div>
+
+</body>
+</html>
