@@ -477,3 +477,156 @@ footer {
 footer p {
     text-align: center;
 }
+
+
+
+/* video page style */
+
+/* Page Title */
+.page-header{
+  text-align:center;
+  margin-top:2rem;
+  font-size:2.5rem;
+}
+
+/* Grid */
+.project-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:2.5rem;
+  padding:3rem;
+}
+
+/* Card */
+.item{
+  position:relative;
+  background:#111;
+  border-radius:1.2rem;
+  overflow:hidden;
+  transition:0.3s ease;
+}
+
+.item:hover{
+  transform:translateY(-8px);
+  box-shadow:0 15px 30px rgba(0,0,0,0.3);
+}
+
+/* Video */
+.item video{
+  width:100%;
+  display:block;
+  border-radius:1.2rem;
+  transition: transform 0.4s ease;
+}
+
+.item:hover video{
+  transform: scale(1.05);
+}
+
+/* Play Icon */
+/* .play-icon{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  font-size:50px;
+  color:white;
+  opacity:0.8;
+  transition:0.3s ease;
+}
+
+.item:hover .play-icon{
+  transform:translate(-50%, -50%) scale(1.15);
+  opacity:1;
+} */
+
+
+/* Back Button */
+.back-btn{
+  margin:2rem;
+  display:inline-block;
+  text-decoration:none;
+  color:black;
+  border:1px solid black;
+  padding:0.5rem 1.2rem;
+  border-radius:2rem;
+}
+
+.back-btn:hover{
+  background:black;
+  color:white;
+}
+/* Video Thumbnail */
+.video-thumb{
+  width:100%;
+  border-radius:1.2rem;
+  cursor:pointer;
+}
+
+/* Modal */
+#videoModal{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.85);
+  display:none;
+  align-items:center;
+  justify-content:center;
+  z-index:999;
+}
+
+#videoModal video{
+  width:70%;
+  max-width:900px;
+  border-radius:1rem;
+}
+
+#closeModal{
+  position:absolute;
+  top:30px;
+  right:40px;
+  font-size:40px;
+  color:white;
+  cursor:pointer;
+}
+
+#videoModal iframe{
+  width:70%;
+  aspect-ratio:16/9;
+  max-width:900px;
+}
+
+/* ===== FORCE MOBILE FIX ===== */
+@media (max-width:768px){
+
+  .project-grid{
+    display:grid;
+    grid-template-columns:1fr !important;
+    padding:1.5rem !important;
+    gap:2rem !important;
+  }
+
+  .item{
+    width:100%;
+  }
+
+  .video-thumb{
+    width:100%;
+  }
+
+  .page-header{
+    font-size:1.8rem;
+  }
+
+}
+
+/* .video-title{
+  color:#000000;
+  font-size:1rem;
+  margin-top:0.8rem;
+  text-align:center;
+  font-weight:500;
+} */
+
