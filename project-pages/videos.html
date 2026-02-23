@@ -113,6 +113,12 @@
   color:white;
   cursor:pointer;
 }
+
+#videoModal iframe{
+  width:70%;
+  aspect-ratio:16/9;
+  max-width:900px;
+}
 </style>
 </head>
 
@@ -130,7 +136,7 @@
 
   <img src="../project-assets/videos/thumb1.jpg"
        class="video-thumb"
-       data-video="../project-assets/videos/video1.mp4">
+       data-video="https://www.youtube.com/embed/W7C5657NOoA">
 
 </div>
 
@@ -140,7 +146,7 @@
 
   <img src="../project-assets/videos/thumb1.jpg"
        class="video-thumb"
-       data-video="../project-assets/videos/video1.mp4">
+       data-video="https://www.youtube.com/embed/W7C5657NOoA">
 
 </div>
 
@@ -150,7 +156,7 @@
 
   <img src="../project-assets/videos/thumb1.jpg"
        class="video-thumb"
-       data-video="../project-assets/videos/video1.mp4">
+       data-video="https://www.youtube.com/embed/W7C5657NOoA">
 
 </div>
 
@@ -160,7 +166,7 @@
 
   <img src="../project-assets/videos/thumb1.jpg"
        class="video-thumb"
-       data-video="../project-assets/videos/video1.mp4">
+       data-video="https://www.youtube.com/embed/W7C5657NOoA">
 
 </div>
 
@@ -169,7 +175,11 @@
 <!-- VIDEO MODAL -->
 <div id="videoModal">
   <span id="closeModal">×</span>
-  <video id="modalVideo" controls></video>
+  <iframe id="modalVideo"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen>
+  </iframe>
 </div>
 
 <script>
