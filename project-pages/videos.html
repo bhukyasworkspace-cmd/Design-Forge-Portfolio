@@ -54,13 +54,17 @@
   position:absolute;
   top:50%;
   left:50%;
-  transform:translate(-50%,-50%);
-  font-size:4rem;
+  transform:translate(-50%, -50%);
+  font-size:50px;
   color:white;
-  pointer-events:none;
-  opacity:0.9;
+  opacity:0.8;
+  transition:0.3s ease;
 }
 
+.item:hover .play-icon{
+  transform:translate(-50%, -50%) scale(1.15);
+  opacity:1;
+}
 
 
 /* Back Button */
