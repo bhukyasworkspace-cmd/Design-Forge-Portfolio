@@ -125,6 +125,29 @@
   max-width:900px;
 }
 
+/* ===== FORCE MOBILE FIX ===== */
+@media (max-width:768px){
+
+  .project-grid{
+    display:grid;
+    grid-template-columns:1fr !important;
+    padding:1.5rem !important;
+    gap:2rem !important;
+  }
+
+  .item{
+    width:100%;
+  }
+
+  .video-thumb{
+    width:100%;
+  }
+
+  .page-header{
+    font-size:1.8rem;
+  }
+
+}
 
 </style>
 </head>
@@ -200,13 +223,12 @@ thumbs.forEach(thumb=>{
     const videoSrc = thumb.getAttribute("data-video");
     modal.style.display = "flex";
     modalVideo.src = videoSrc;
-    modalVideo.play();
+    
   });
 });
 
 closeBtn.onclick = ()=>{
   modal.style.display = "none";
-  modalVideo.pause();
   modalVideo.src = "";
 }
 </script>
