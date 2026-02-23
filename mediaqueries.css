@@ -97,28 +97,20 @@
         text-align: justify;
     }
 
+}
 
-    /* Videos Page Grid Responsive */
-    @media (max-width: 1024px){
+/* ===============================
+   VIDEOS PAGE RESPONSIVE
+================================ */
+
+/* Tablet */
+@media (max-width:1024px){
   .project-grid{
     grid-template-columns:repeat(2,1fr);
   }
 }
 
-@media (max-width: 600px){
-  .project-grid{
-    grid-template-columns:repeat(1,1fr);
-  }
-}
-@media (max-width:600px){
-  #videoModal iframe{
-    width:95%;
-  }
-}
-/* ===============================
-   Videos Page - Mobile Layout
-================================ */
-
+/* Mobile */
 @media (max-width:600px){
 
   .project-grid{
@@ -140,13 +132,14 @@
     margin-top:1.5rem;
   }
 
+  #videoModal iframe{
+    width:95%;
+  }
+
   .play-icon{
     width:55px;
     height:55px;
     font-size:28px;
   }
-
-}
-
 
 }
