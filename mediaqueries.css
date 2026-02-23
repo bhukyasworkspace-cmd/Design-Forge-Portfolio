@@ -115,5 +115,38 @@
     width:95%;
   }
 }
+/* ===============================
+   Videos Page - Mobile Layout
+================================ */
+
+@media (max-width:600px){
+
+  .project-grid{
+    grid-template-columns:1fr;
+    padding:1.5rem;
+    gap:1.8rem;
+  }
+
+  .item{
+    border-radius:1rem;
+  }
+
+  .video-thumb{
+    border-radius:1rem;
+  }
+
+  .page-header{
+    font-size:1.8rem;
+    margin-top:1.5rem;
+  }
+
+  .play-icon{
+    width:55px;
+    height:55px;
+    font-size:28px;
+  }
+
+}
+
 
 }
