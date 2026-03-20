@@ -630,3 +630,130 @@ footer p {
   font-weight:500;
 } */
 
+
+
+
+/* Thumbnail page style */
+
+/* Dark Theme */
+/* body{
+  background:#0f0f0f;
+  color:white;
+  font-family:Poppins, sans-serif;
+} */
+
+.thumbnails-page{
+  background:#0f0f0f;
+  color:white;
+}
+
+/* Back Button */
+.thumbnails-page .back-btn{
+  margin:2rem;
+  display:inline-block;
+  text-decoration:none;
+  color:white;
+  border:1px solid white;
+  padding:0.5rem 1.2rem;
+  border-radius:2rem;
+}
+
+.thumbnails-page .back-btn:hover{
+  background:white;
+  color:black;
+}
+
+/* Title */
+.thumbnails-page .page-header{
+  text-align:center;
+  font-size:2.5rem;
+  margin-top:1rem;
+}
+.thumbnails-page .section-subtitle{
+  font-size:1.2rem;
+  font-weight:500;
+  color:#aaa;
+  margin:2rem 3rem 1rem;
+  letter-spacing:0.5px;
+  position:relative;
+}
+
+/* .section-subtitle{
+  font-size:1.2rem;
+  font-weight:500;
+  color:#aaa;
+  margin:3rem 3rem 1.5rem;
+  letter-spacing:0.5px;
+  position:relative;
+} */
+
+/* .section-subtitle::after{
+  content:"";
+  display:block;
+  width:50px;
+  height:2px;
+  background:#555;
+  margin-top:6px;
+} */
+
+/* Grid */
+.thumbnails-page .project-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:2rem;
+  padding:3rem;
+}
+
+/* Card */
+.thumbnails-page .item:hover{
+  transform:translateY(-6px);
+}
+
+/* Thumbnail */
+.thumbnails-page .thumb-img{
+  width:100%;
+  display:block;
+  border-radius:1rem;
+  transition:0.4s ease;
+}
+
+.thumbnails-page .item:hover .thumb-img{
+  transform:scale(1.05);
+}
+
+/* Title */
+.thumbnails-page .thumb-title{
+  margin-top:0.6rem;
+  text-align:center;
+  font-size:1rem;
+  color:#ccc;
+}
+
+/* LIGHTBOX */
+#lightbox{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.9);
+  display:none;
+  align-items:center;
+  justify-content:center;
+  z-index:999;
+}
+
+#lightbox img{
+  max-width:90%;
+  max-height:90%;
+  border-radius:1rem;
+}
+
+#close{
+  position:absolute;
+  top:30px;
+  right:40px;
+  font-size:40px;
+  color:white;
+  cursor:pointer;
+}

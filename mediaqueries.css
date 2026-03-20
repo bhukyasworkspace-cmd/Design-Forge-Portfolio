@@ -143,3 +143,21 @@
   }
 
 }
+
+
+
+/* ===============================
+   Thumbnail PAGE RESPONSIVE
+================================ */
+
+/* Responsive */
+@media (max-width:1024px){
+  .thumbnails-page .project-grid{grid-template-columns:repeat(2,1fr);}
+}
+
+@media (max-width:600px){
+  .thumbnails-page .project-grid{
+    grid-template-columns:1fr;
+    padding:1.5rem;
+  }
+}

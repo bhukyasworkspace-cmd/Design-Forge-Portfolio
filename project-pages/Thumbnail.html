@@ -2,70 +2,244 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Thumbnail</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thumbnails</title>
+
 <link rel="stylesheet" href="../style.css">
-<style>
-.page-header{
-  text-align:center;
-  margin-top:4rem;
+<link rel="stylesheet" href="../mediaqueries.css">
+
+<!-- <style>
+
+/* Dark Theme */
+body{
+  background:#0f0f0f;
+  color:white;
+  font-family:Poppins, sans-serif;
 }
 
-.project-grid{
+/* Back Button */
+.thumbnails-page .back-btn{
+  margin:2rem;
+  display:inline-block;
+  text-decoration:none;
+  color:white;
+  border:1px solid white;
+  padding:0.5rem 1.2rem;
+  border-radius:2rem;
+}
+
+.thumbnails-page .back-btn:hover{
+  background:white;
+  color:black;
+}
+
+/* Title */
+.thumbnails-page .page-header{
+  text-align:center;
+  font-size:2.5rem;
+  margin-top:1rem;
+}
+.thumbnails-page .section-subtitle{
+  font-size:1.2rem;
+  font-weight:500;
+  color:#aaa;
+  margin:2rem 3rem 1rem;
+  letter-spacing:0.5px;
+  position:relative;
+}
+
+/* .section-subtitle{
+  font-size:1.2rem;
+  font-weight:500;
+  color:#aaa;
+  margin:3rem 3rem 1.5rem;
+  letter-spacing:0.5px;
+  position:relative;
+} */
+
+/* .section-subtitle::after{
+  content:"";
+  display:block;
+  width:50px;
+  height:2px;
+  background:#555;
+  margin-top:6px;
+} */
+
+/* Grid */
+.thumbnails-page .project-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  grid-template-columns:repeat(3,1fr);
   gap:2rem;
   padding:3rem;
 }
 
-.item{
-  border:1px solid #ccc;
-  padding:1rem;
-  border-radius:1rem;
-  text-align:center;
+/* Card */
+.thumbnails-page .item:hover{
+  transform:translateY(-6px);
 }
 
-.item img,
-.item video{
+/* Thumbnail */
+.thumbnails-page .thumb-img{
   width:100%;
+  display:block;
+  border-radius:1rem;
+  transition:0.4s ease;
+}
+
+.thumbnails-page .item:hover .thumb-img{
+  transform:scale(1.05);
+}
+
+/* Title */
+.thumbnails-page .thumb-title{
+  margin-top:0.6rem;
+  text-align:center;
+  font-size:1rem;
+  color:#ccc;
+}
+
+/* LIGHTBOX */
+#lightbox{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.9);
+  display:none;
+  align-items:center;
+  justify-content:center;
+  z-index:999;
+}
+
+#lightbox img{
+  max-width:90%;
+  max-height:90%;
   border-radius:1rem;
 }
 
-.download-btn{
-  margin-top:1rem;
-  padding:0.6rem 1.5rem;
-  border-radius:2rem;
-  border:1px solid #333;
-  background:white;
+#close{
+  position:absolute;
+  top:30px;
+  right:40px;
+  font-size:40px;
+  color:white;
   cursor:pointer;
 }
-.download-btn:hover{
-  background:black;
-  color:white;
+
+/* Responsive */
+@media (max-width:1024px){
+  .thumbnails-page .project-grid{grid-template-columns:repeat(2,1fr);}
 }
-</style>
+
+@media (max-width:600px){
+  .thumbnails-page .project-grid{
+    grid-template-columns:1fr;
+    padding:1.5rem;
+  }
+}
+
+</style> -->
 </head>
 
-<body>
+<body class="thumbnails-page">
+
+<a href="../index.html" class="back-btn">← Back to Home</a>
 
 <h1 class="page-header">Thumbnail Designs</h1>
 
+<h3 class="section-subtitle">Original Creations</h3>
+
 <div class="project-grid">
 
-<div class="item">
-<img src="../project-assets/Thumbnail/poster1.jpg">
-<a href="../project-assets/Thumbnail/poster1.jpg" download>
-<button class="download-btn">Download</button>
-</a>
+  <div class="item">
+    <img src="../project-assets/thumbnails/original1.jpg" class="thumb-img">
+    <p class="thumb-title">Product Showcase Thumbnail</p>
+  </div>
+
+  <div class="item">
+    <img src="../project-assets/thumbnails/original2.jpg" class="thumb-img">
+    <p class="thumb-title">Vlog Story Thumbnail</p>
+  </div>
+
+  <div class="item">
+    <img src="../project-assets/thumbnails/original3.jpg" class="thumb-img">
+    <p class="thumb-title">Gaming Thumbnail Concept</p>
+  </div>
+
 </div>
 
+<h3 class="section-subtitle"> Recreated work</h3>
+<div class="project-grid">
+
+<!-- ITEM 1 -->
 <div class="item">
-<img src="../project-assets/Thumbnail/poster2.jpg">
-<a href="../project-assets/Thumbnail/poster2.jpg" download>
-<button class="download-btn">Download</button>
-</a>
+  <img src="../project-assets/thumbnails/thumb1.jpg" class="thumb-img">
+  <p class="thumb-title">Documentry Thumbnail</p>
+</div>
+
+<!-- ITEM 2 -->
+<div class="item">
+  <img src="../project-assets/thumbnails/thumb2.jpg" class="thumb-img">
+  <p class="thumb-title">Tech Thumbnail </p>
+</div>
+
+<!-- ITEM 3 -->
+<div class="item">
+  <img src="../project-assets/thumbnails/thumb3.jpg" class="thumb-img">
+  <p class="thumb-title"> Person Podcast Thumbnail</p>
+</div>
+
+<!-- ITEM 4 -->
+<div class="item">
+  <img src="../project-assets/thumbnails/thumb4.jpg" class="thumb-img">
+  <p class="thumb-title">Content Podcast Thumbnail</p>
+</div>
+
+<!-- ITEM 5 -->
+<div class="item">
+  <img src="../project-assets/thumbnails/thumb5.jpg" class="thumb-img">
+  <p class="thumb-title">Movie Review Thumbnail</p>
+</div>
+
+<!-- ITEM 6 -->
+<div class="item">
+  <img src="../project-assets/thumbnails/thumb6.jpg" class="thumb-img">
+  <p class="thumb-title">Travelling vlog Thumbnail</p>
+</div>
+
+<!-- ITEM 7 -->
+<div class="item">
+  <img src="../project-assets/thumbnails/thumb7.jpg" class="thumb-img">
+  <p class="thumb-title">Food Vlog Thumbnail</p>
 </div>
 
 </div>
+
+<!-- LIGHTBOX -->
+<div id="lightbox">
+  <span id="close">×</span>
+  <img id="lightbox-img">
+</div>
+
+<script>
+const images = document.querySelectorAll(".thumb-img");
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+const closeBtn = document.getElementById("close");
+
+images.forEach(img=>{
+  img.addEventListener("click", ()=>{
+    lightbox.style.display="flex";
+    lightboxImg.src = img.src;
+  });
+});
+
+closeBtn.onclick=()=>{
+  lightbox.style.display="none";
+}
+</script>
 
 </body>
 </html>
