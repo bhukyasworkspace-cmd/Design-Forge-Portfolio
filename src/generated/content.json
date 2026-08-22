@@ -1,0 +1,182 @@
+{
+  "generatedAt": "2026-08-22T18:48:49.063Z",
+  "totals": {
+    "categories": 2,
+    "sections": 3,
+    "items": 9
+  },
+  "categories": [
+    {
+      "slug": "thumbnails",
+      "title": "Thumbnails",
+      "dirName": "02 Thumbnails",
+      "tagline": "",
+      "description": "",
+      "order": 2,
+      "accent": "",
+      "count": 8,
+      "cover": "portfolio/02%20Thumbnails/Original%20Creations/Original%20Concept%2001.jpg",
+      "coverType": "image",
+      "sections": [
+        {
+          "slug": "original-creations",
+          "title": "Original Creations",
+          "description": "",
+          "order": null,
+          "breadcrumb": [
+            "Original Creations"
+          ],
+          "count": 1,
+          "items": [
+            {
+              "id": "thumbnails/original-creations/original-concept-01",
+              "title": "Original Concept 01",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/02%20Thumbnails/Original%20Creations/Original%20Concept%2001.jpg",
+              "poster": "",
+              "width": 1280,
+              "height": 720,
+              "bytes": 565501
+            }
+          ]
+        },
+        {
+          "slug": "recreated-work",
+          "title": "Recreated Work",
+          "description": "",
+          "order": null,
+          "breadcrumb": [
+            "Recreated Work"
+          ],
+          "count": 7,
+          "items": [
+            {
+              "id": "thumbnails/recreated-work/recreation-01",
+              "title": "Recreation 01",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/02%20Thumbnails/Recreated%20Work/Recreation%2001.jpg",
+              "poster": "",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 1368422
+            },
+            {
+              "id": "thumbnails/recreated-work/recreation-02",
+              "title": "Recreation 02",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/02%20Thumbnails/Recreated%20Work/Recreation%2002.jpg",
+              "poster": "",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 1536459
+            },
+            {
+              "id": "thumbnails/recreated-work/recreation-03",
+              "title": "Recreation 03",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/02%20Thumbnails/Recreated%20Work/Recreation%2003.jpg",
+              "poster": "",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 2481314
+            },
+            {
+              "id": "thumbnails/recreated-work/recreation-04",
+              "title": "Recreation 04",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/02%20Thumbnails/Recreated%20Work/Recreation%2004.jpg",
+              "poster": "",
+              "width": 1280,
+              "height": 720,
+              "bytes": 548556
+            },
+            {
+              "id": "thumbnails/recreated-work/recreation-05",
+              "title": "Recreation 05",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/02%20Thumbnails/Recreated%20Work/Recreation%2005.jpg",
+              "poster": "",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 1438734
+            },
+            {
+              "id": "thumbnails/recreated-work/recreation-06",
+              "title": "Recreation 06",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/02%20Thumbnails/Recreated%20Work/Recreation%2006.jpg",
+              "poster": "",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 1430149
+            },
+            {
+              "id": "thumbnails/recreated-work/recreation-07",
+              "title": "Recreation 07",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/02%20Thumbnails/Recreated%20Work/Recreation%2007.jpg",
+              "poster": "",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 1493945
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "videos",
+      "title": "Videos",
+      "dirName": "04 Videos",
+      "tagline": "",
+      "description": "",
+      "order": 4,
+      "accent": "",
+      "count": 1,
+      "cover": "portfolio/04%20Videos/Short%20Form/Reel%20Cover%2001.jpg",
+      "coverType": "image",
+      "sections": [
+        {
+          "slug": "short-form",
+          "title": "Short Form",
+          "description": "",
+          "order": null,
+          "breadcrumb": [
+            "Short Form"
+          ],
+          "count": 1,
+          "items": [
+            {
+              "id": "videos/short-form/reel-cover-01",
+              "title": "Reel Cover 01",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/04%20Videos/Short%20Form/Reel%20Cover%2001.jpg",
+              "poster": "",
+              "width": 1280,
+              "height": 720,
+              "bytes": 226507
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
