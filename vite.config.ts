@@ -16,9 +16,14 @@ function portfolioContent(): Plugin {
       const watched = fileURLToPath(new URL('./public/portfolio', import.meta.url))
       server.watcher.add(watched)
 
+      let ready = false
+      server.watcher.on('ready', () => {
+        ready = true
+      })
+
       let queued: ReturnType<typeof setTimeout> | undefined
       const resync = (file: string) => {
-        if (!file.includes('portfolio')) return
+        if (!ready || !file.startsWith(watched)) return
         clearTimeout(queued)
         queued = setTimeout(() => {
           const { changed } = scanContent({ quiet: true })
@@ -26,7 +31,7 @@ function portfolioContent(): Plugin {
             server.config.logger.info('  \x1b[38;5;208m▸\x1b[0m portfolio content updated')
             server.ws.send({ type: 'full-reload' })
           }
-        }, 150)
+        }, 200)
       }
 
       server.watcher.on('add', resync)

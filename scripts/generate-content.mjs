@@ -341,10 +341,18 @@ export function scanContent({ quiet = false } = {}) {
   }
 
   mkdirSync(join(ROOT, 'src', 'generated'), { recursive: true })
-  const json = `${JSON.stringify(payload, null, 2)}\n`
-  const previous = existsSync(OUT_FILE) ? readFileSync(OUT_FILE, 'utf8') : ''
-  const changed = previous !== json
-  if (changed) writeFileSync(OUT_FILE, json)
+  let previousData = null
+  if (existsSync(OUT_FILE)) {
+    try {
+      const prev = JSON.parse(readFileSync(OUT_FILE, 'utf8'))
+      previousData = { totals: prev.totals, categories: prev.categories }
+    } catch {}
+  }
+  const currentData = { totals: payload.totals, categories: payload.categories }
+  const changed = JSON.stringify(previousData) !== JSON.stringify(currentData)
+  if (changed) {
+    writeFileSync(OUT_FILE, `${JSON.stringify(payload, null, 2)}\n`)
+  }
 
   if (!quiet) {
     console.log(`\n  ▸ Portfolio content — ${payload.totals.items} items in ${payload.totals.sections} sections across ${payload.totals.categories} categories`)

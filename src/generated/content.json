@@ -1,11 +1,553 @@
 {
-  "generatedAt": "2026-08-22T18:48:49.063Z",
+  "generatedAt": "2026-10-03T11:04:02.526Z",
   "totals": {
-    "categories": 2,
-    "sections": 3,
-    "items": 9
+    "categories": 3,
+    "sections": 13,
+    "items": 43
   },
   "categories": [
+    {
+      "slug": "posters",
+      "title": "Posters",
+      "dirName": "01 Posters",
+      "tagline": "",
+      "description": "",
+      "order": 1,
+      "accent": "",
+      "count": 34,
+      "cover": "portfolio/01%20Posters/Apparel%20%26%20Lifestyle/accessories%20(Bag).png",
+      "coverType": "image",
+      "sections": [
+        {
+          "slug": "apparel-lifestyle",
+          "title": "Apparel & Lifestyle",
+          "description": "",
+          "order": null,
+          "breadcrumb": [
+            "Apparel & Lifestyle"
+          ],
+          "count": 4,
+          "items": [
+            {
+              "id": "posters/apparel-lifestyle/accessories-bag",
+              "title": "accessories (Bag)",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Apparel%20%26%20Lifestyle/accessories%20(Bag).png",
+              "poster": "",
+              "width": 2480,
+              "height": 3508,
+              "bytes": 7527786
+            },
+            {
+              "id": "posters/apparel-lifestyle/clothing-brand",
+              "title": "Clothing Brand",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Apparel%20%26%20Lifestyle/Clothing%20Brand.jpg",
+              "poster": "",
+              "width": 1080,
+              "height": 1350,
+              "bytes": 616084
+            },
+            {
+              "id": "posters/apparel-lifestyle/footwear",
+              "title": "Footwear",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Apparel%20%26%20Lifestyle/Footwear.png",
+              "poster": "",
+              "width": 2500,
+              "height": 3125,
+              "bytes": 7163105
+            },
+            {
+              "id": "posters/apparel-lifestyle/street-wear-different",
+              "title": "Street Wear Different",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Apparel%20%26%20Lifestyle/street%20wear%20different.png",
+              "poster": "",
+              "width": 1080,
+              "height": 1350,
+              "bytes": 1702298
+            }
+          ]
+        },
+        {
+          "slug": "automobiles",
+          "title": "Automobiles",
+          "description": "",
+          "order": null,
+          "breadcrumb": [
+            "Automobiles"
+          ],
+          "count": 2,
+          "items": [
+            {
+              "id": "posters/automobiles/car-showroom-poster",
+              "title": "Car Showroom Poster",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Automobiles/car%20showroom%20poster.png",
+              "poster": "",
+              "width": 2480,
+              "height": 3508,
+              "bytes": 6714069
+            },
+            {
+              "id": "posters/automobiles/ev-brand",
+              "title": "EV Brand",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Automobiles/EV%20Brand.png",
+              "poster": "",
+              "width": 2500,
+              "height": 3125,
+              "bytes": 6422598
+            }
+          ]
+        },
+        {
+          "slug": "constructions",
+          "title": "Constructions",
+          "description": "",
+          "order": null,
+          "breadcrumb": [
+            "Constructions"
+          ],
+          "count": 5,
+          "items": [
+            {
+              "id": "posters/constructions/construction",
+              "title": "Construction",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Constructions/construction.png",
+              "poster": "",
+              "width": 1080,
+              "height": 1350,
+              "bytes": 1472186
+            },
+            {
+              "id": "posters/constructions/interior-design-poster",
+              "title": "Interior Design poster",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Constructions/Interior%20Design%20poster.png",
+              "poster": "",
+              "width": 3000,
+              "height": 3750,
+              "bytes": 5598730
+            },
+            {
+              "id": "posters/constructions/paint",
+              "title": "Paint",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Constructions/paint_.png",
+              "poster": "",
+              "width": 1080,
+              "height": 1350,
+              "bytes": 1260151
+            },
+            {
+              "id": "posters/constructions/real-estate-2",
+              "title": "Real Estate 2",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Constructions/Real%20Estate%202_.png",
+              "poster": "",
+              "width": 2500,
+              "height": 3125,
+              "bytes": 10831490
+            },
+            {
+              "id": "posters/constructions/real-estate",
+              "title": "Real Estate",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Constructions/Real%20Estate_.png",
+              "poster": "",
+              "width": 2500,
+              "height": 3125,
+              "bytes": 6928254
+            }
+          ]
+        },
+        {
+          "slug": "education-training",
+          "title": "Education & Training",
+          "description": "",
+          "order": null,
+          "breadcrumb": [
+            "Education & Training"
+          ],
+          "count": 2,
+          "items": [
+            {
+              "id": "posters/education-training/coaching-center-banner",
+              "title": "Coaching Center Banner",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Education%20%26%20Training/coaching%20center%20banner.png",
+              "poster": "",
+              "width": 3000,
+              "height": 1200,
+              "bytes": 1794527
+            },
+            {
+              "id": "posters/education-training/preschools-play-schools",
+              "title": "Preschools & Play Schools",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Education%20%26%20Training/Preschools%20%26%20Play%20Schools_.png",
+              "poster": "",
+              "width": 2500,
+              "height": 3125,
+              "bytes": 5751422
+            }
+          ]
+        },
+        {
+          "slug": "entertainment-media",
+          "title": "Entertainment & Media",
+          "description": "",
+          "order": null,
+          "breadcrumb": [
+            "Entertainment & Media"
+          ],
+          "count": 1,
+          "items": [
+            {
+              "id": "posters/entertainment-media/movie-poster-1",
+              "title": "Movie Poster 1",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Entertainment%20%26%20Media/movie%20poster%201.jpg",
+              "poster": "",
+              "width": 2000,
+              "height": 2500,
+              "bytes": 5502807
+            }
+          ]
+        },
+        {
+          "slug": "fashion-beauty",
+          "title": "Fashion & Beauty",
+          "description": "",
+          "order": null,
+          "breadcrumb": [
+            "Fashion & Beauty"
+          ],
+          "count": 3,
+          "items": [
+            {
+              "id": "posters/fashion-beauty/grooming-lounges",
+              "title": "Grooming Lounges",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Fashion%20%26%20Beauty/Grooming%20Lounges.png",
+              "poster": "",
+              "width": 3000,
+              "height": 4244,
+              "bytes": 8288444
+            },
+            {
+              "id": "posters/fashion-beauty/perfume-banner",
+              "title": "perfume Banner",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Fashion%20%26%20Beauty/perfume%20Banner.png",
+              "poster": "",
+              "width": 3500,
+              "height": 1024,
+              "bytes": 1195586
+            },
+            {
+              "id": "posters/fashion-beauty/salon-poster",
+              "title": "Salon Poster",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Fashion%20%26%20Beauty/salon%20poster.png",
+              "poster": "",
+              "width": 3000,
+              "height": 3750,
+              "bytes": 4765264
+            }
+          ]
+        },
+        {
+          "slug": "food-beverage",
+          "title": "Food & Beverage",
+          "description": "",
+          "order": null,
+          "breadcrumb": [
+            "Food & Beverage"
+          ],
+          "count": 10,
+          "items": [
+            {
+              "id": "posters/food-beverage/bakeries",
+              "title": "Bakeries",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Food%20%26%20Beverage/Bakeries.png",
+              "poster": "",
+              "width": 2500,
+              "height": 3125,
+              "bytes": 7398725
+            },
+            {
+              "id": "posters/food-beverage/biriyani",
+              "title": "Biriyani",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Food%20%26%20Beverage/Biriyani.png",
+              "poster": "",
+              "width": 1080,
+              "height": 1350,
+              "bytes": 2753971
+            },
+            {
+              "id": "posters/food-beverage/cafe-poster",
+              "title": "Cafe Poster",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Food%20%26%20Beverage/cafe%20poster.png",
+              "poster": "",
+              "width": 2500,
+              "height": 3125,
+              "bytes": 3008855
+            },
+            {
+              "id": "posters/food-beverage/catering-services-poster",
+              "title": "Catering Services poster",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Food%20%26%20Beverage/Catering%20Services%20poster_.png",
+              "poster": "",
+              "width": 2500,
+              "height": 3125,
+              "bytes": 4838886
+            },
+            {
+              "id": "posters/food-beverage/cloud-kitchen",
+              "title": "Cloud Kitchen",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Food%20%26%20Beverage/Cloud%20Kitchen.png",
+              "poster": "",
+              "width": 2500,
+              "height": 3125,
+              "bytes": 9957367
+            },
+            {
+              "id": "posters/food-beverage/food-delivery-brand",
+              "title": "Food Delivery Brand",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Food%20%26%20Beverage/Food%20Delivery%20Brand.png",
+              "poster": "",
+              "width": 3000,
+              "height": 1025,
+              "bytes": 2780619
+            },
+            {
+              "id": "posters/food-beverage/ice-cream-parlours",
+              "title": "Ice Cream Parlours",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Food%20%26%20Beverage/Ice%20Cream%20Parlours.png",
+              "poster": "",
+              "width": 2500,
+              "height": 3125,
+              "bytes": 11182624
+            },
+            {
+              "id": "posters/food-beverage/juice-bars",
+              "title": "Juice Bars",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Food%20%26%20Beverage/juice%20bars.png",
+              "poster": "",
+              "width": 3000,
+              "height": 1300,
+              "bytes": 2475528
+            },
+            {
+              "id": "posters/food-beverage/organic-health-food-stores",
+              "title": "Organic Health Food Stores",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Food%20%26%20Beverage/Organic_Health%20Food%20Stores.png",
+              "poster": "",
+              "width": 2500,
+              "height": 3125,
+              "bytes": 6472734
+            },
+            {
+              "id": "posters/food-beverage/street-food",
+              "title": "Street Food",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Food%20%26%20Beverage/street%20food_.png",
+              "poster": "",
+              "width": 2480,
+              "height": 3508,
+              "bytes": 4503385
+            }
+          ]
+        },
+        {
+          "slug": "health-wellness",
+          "title": "Health & Wellness",
+          "description": "",
+          "order": null,
+          "breadcrumb": [
+            "Health & Wellness"
+          ],
+          "count": 2,
+          "items": [
+            {
+              "id": "posters/health-wellness/gym-fitness-centres",
+              "title": "Gym & Fitness Centres",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Health%20%26%20Wellness/%20Gym%20%26%20Fitness%20Centres.png",
+              "poster": "",
+              "width": 2500,
+              "height": 3125,
+              "bytes": 6474143
+            },
+            {
+              "id": "posters/health-wellness/clinic-poster",
+              "title": "Clinic Poster",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Health%20%26%20Wellness/Clinic%20poster.png",
+              "poster": "",
+              "width": 2500,
+              "height": 3125,
+              "bytes": 1073655
+            }
+          ]
+        },
+        {
+          "slug": "jewellery-boutiques",
+          "title": "Jewellery &Boutiques",
+          "description": "",
+          "order": null,
+          "breadcrumb": [
+            "Jewellery &Boutiques"
+          ],
+          "count": 3,
+          "items": [
+            {
+              "id": "posters/jewellery-boutiques/artboard-9",
+              "title": "Artboard 9",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Jewellery%20%26Boutiques/Artboard%209.png",
+              "poster": "",
+              "width": 1080,
+              "height": 1350,
+              "bytes": 2056751
+            },
+            {
+              "id": "posters/jewellery-boutiques/boutique-stores",
+              "title": "Boutique Stores",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Jewellery%20%26Boutiques/Boutique%20Stores.png",
+              "poster": "",
+              "width": 2500,
+              "height": 3125,
+              "bytes": 6480003
+            },
+            {
+              "id": "posters/jewellery-boutiques/gold-and-silver-poster",
+              "title": "Gold And Silver Poster",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Jewellery%20%26Boutiques/gold%20and%20silver%20poster.png",
+              "poster": "",
+              "width": 2500,
+              "height": 3125,
+              "bytes": 5891829
+            }
+          ]
+        },
+        {
+          "slug": "miscellaneous",
+          "title": "Miscellaneous",
+          "description": "",
+          "order": null,
+          "breadcrumb": [
+            "Miscellaneous"
+          ],
+          "count": 2,
+          "items": [
+            {
+              "id": "posters/miscellaneous/pet-shoop-and-grooming",
+              "title": "Pet Shoop And Grooming",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Miscellaneous%20/pet%20shoop%20and%20grooming.png",
+              "poster": "",
+              "width": 2480,
+              "height": 3508,
+              "bytes": 3712598
+            },
+            {
+              "id": "posters/miscellaneous/travel-agencie-poster",
+              "title": "Travel Agencie Poster",
+              "description": "",
+              "tags": [],
+              "type": "image",
+              "src": "portfolio/01%20Posters/Miscellaneous%20/travel%20agencie%20poster.png",
+              "poster": "",
+              "width": 2500,
+              "height": 3125,
+              "bytes": 7367853
+            }
+          ]
+        }
+      ]
+    },
     {
       "slug": "thumbnails",
       "title": "Thumbnails",
